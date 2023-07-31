@@ -1,0 +1,105 @@
+Java Practical 02
+
+
+PART 01
+
+Item class – 
+
+
+package com.mycompany.practical02exe;
+
+public class Item {
+    
+    
+    private int location;
+    private String description;
+    
+    
+    public Item (int location,String description ) {
+    
+    this.location = location;
+    this.description = description;
+    }
+    
+    
+    
+    public void setLocation (int location){
+    
+    this.location = location;
+    
+    
+    }
+    
+    
+     public void setDescription (String description){
+    
+    this.description = description;
+    
+    
+    }
+     
+    public int getLocation (int location){
+    
+    return this.location;
+    
+    
+    }
+    
+    public String getDescription (String description){
+    
+    return this.description;
+    
+    
+    }
+     
+   
+    
+}
+
+
+        Monster class – 
+
+
+package com.mycompany.practical02exe;
+
+public class Monster extends Item {
+    
+    
+    public Monster (int location,String description) {
+    
+    
+    super(location,description);
+    
+    
+    }
+    
+    
+}
+PART 02
+
+1)	b) super
+2)	c) protected	
+3)	a) Object
+4)	c) import pkg.*	
+5)	c) charAt()
+6)	d) length()
+
+
+
+PART 03
+
+1.	State, behavior
+2.	Fields
+3.	Methods
+4.	Encapsulation
+5.	Class
+6.	extends 
+7.	interface
+8.	package
+9.	Application Programming Interface
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Answer : 9 , 6
+
+In SuperB class;
+First, 2 is assigning to the variable x in method setIt().Then the value of x is increasing by 1 in the method,increase(). After that in triple() method the variable x is multiplying by 3.Then the present value of x which is “9” returns as the output in the method returnIt().
+
+In SubC class;
+First, 2 is assigning to the variable x in method setIt(). Then the value of x is increasing by 1 in the method increase(). After that the increased x value is added to 3 because the triple() method is overridden in subC class. Therefore, the final output of the x is 6.

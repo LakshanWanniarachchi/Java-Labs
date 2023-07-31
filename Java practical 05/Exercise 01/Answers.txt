@@ -1,0 +1,17 @@
+1) yes.
+With the `public` keyword, makes the variable accessible from anywhere. Other classes and packages 
+can access the variable directly.
+Adding the `static` keyword It can be accessed using the class name, without creating an instance of the 
+class. 
+The `final` keyword makes the variable a constant, which means its value cannot be changed once 
+assigned. It is often used to state constants or unchanging values.
+
+2)No.
+An abstract method is a method without a body, and it serves as a placeholder that must be 
+implemented in the concrete subclasses or implementing classes.
+In Interface, abstract method cannot have a body. And all methods in interface are all abstract methods.
+
+3)
+In the IntefaceImplemented class, you can not change the value of X because it is declared as final in the 
+interface. The final keyword makes a variable constant, meaning its value can not be modified once 
+assigned

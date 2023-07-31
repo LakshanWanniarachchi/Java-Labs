@@ -1,0 +1,161 @@
+Java practical 01
+1.  
+package com.mycompany.mavenproject4;
+public class Mavenproject4 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+2. 
+package com.mycompany.mavenproject4;
+public class Mavenproject4 {
+
+    public static void main(String[] args) {
+       
+        System.out.println("My name is Lakshan");
+        System.out.println("My degree programme  is Computer Science");
+        
+    }
+}
+3.
+
+
+4. 
+
+package com.mycompany.practical01;
+
+public class Practical01 {
+
+    public static void main(String[] args) {
+      
+        
+        
+        for (int i=0 ; i<5 ; i++) {
+            
+            
+            System.out.println("Excute code "+i);
+            
+            
+        }
+           
+    }
+}
+
+5.
+
+
+package com.mycompany.practical01;
+
+public class Practical01 {
+
+    public static void main(String[] args) {
+    int [] numbers = {10, 20, 30, 40, 50};
+      for(int x : numbers ){
+         if( x == 30 ){
+	    break;
+         }
+         System.out.print( x );
+         System.out.print("\n");
+      }
+          
+        System.out.print("I'm  out of the Loop now");
+
+    }
+}
+
+Result – 
+10
+20
+I'm  out of the Loop now
+
+6.
+
+Result – 
+
+Excellent!
+Your grade is A
+
+Result – 
+Excellent!
+You passed
+Better try again
+Your grade is A
+
+
+package com.mycompany.practical01;
+
+public class Practical01 {
+
+    public static void main(String[] args) {
+      
+        
+ 	char grade ='A';
+  
+        if (grade=='A') {
+        
+        System.out.println("Excellent!");
+        
+        } 
+        
+        else if (grade=='D') {
+        
+        System.out.println("You passed");
+        
+        }
+        
+        else if (grade=='F') {
+        
+        System.out.println("Better try again");
+        
+        }
+        
+        else if (grade=='D') {
+        
+        System.out.println("You passed");
+        
+        } else {
+        
+        System.out.println("Invalid grade");
+        
+        
+        }
+
+        System.out.println("Your grade is " + grade);  
+        
+           
+    }
+}
+6.
+
+
+package com.mycompany.practical01;
+
+public class Practical01 {
+
+    public static void main(String[] args) {
+      
+        
+ 	int [] numbers = {10, 20, 30, 40, 50};
+      		for(int x : numbers ){
+        			 System.out.print( x );
+         			System.out.print(",");
+      		}
+	 System.out.print("\n");
+      	String [] names ={"James", "Larry", "Tom", "Lacy"};
+      		for( String name : names ) {
+        		 	System.out.print( name );
+         			System.out.print(",");
+           
+    }
+}
+}
+
+Result – 
+
+10,20,30,40,50,
+James,Larry,Tom,Lacy,
+
+
+

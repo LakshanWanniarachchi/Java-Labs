@@ -1,0 +1,1 @@
+Outcome of this code will be a compilation error because "Student" is declared as a final class. That is impossible to extend or subclass it. Same result with the final instance variable and the final method. Final keyword makes them impossible to inherit or override.

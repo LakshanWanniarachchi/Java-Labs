@@ -1,0 +1,160 @@
+Java Practical 03
+
+
+Exercise 3-1:
+package com.mycompany.testexe;
+public class test {
+      
+     private String empName;
+     private int empAge;
+     private float empSalary;
+     
+     public void setData(String empName ,int empAge ,float empSalary  ) {    
+      
+        this.empName = empName;
+        this.empAge = empAge;
+        this.empSalary = empSalary;
+        
+     
+     
+     }
+     
+     
+     public String getName () {
+     
+      return this.empName;
+ 
+     }
+     
+     public int getAge() {
+     
+      return this.empAge;
+ 
+     }
+     
+  
+     public float getSalary () {
+     
+      return this.empSalary;
+ 
+     }
+  
+       
+}
+
+b)
+
+
+package com.mycompany.testexe;
+
+
+public class test {
+    
+    
+     private String empName;
+     private int empAge;
+     private float empSalary;
+     
+
+     public test(String empName ,int empAge ,float empSalary ) {    
+     
+     
+        this.empName = empName;
+        this.empAge = empAge;
+        this.empSalary = empSalary;
+        
+     
+     
+     }
+     
+     
+     public String getName () {
+     
+      return this.empName;
+ 
+     }
+     
+     public int getAge() {
+     
+      return this.empAge;
+ 
+     }
+     
+  
+     public float getSalary () {
+     
+      return this.empSalary;
+ 
+     }
+  
+       
+}
+
+
+
+
+
+
+
+package com.mycompany.testexe;
+
+
+public class test {
+    
+    
+     private String empName;
+     private float empBSalary;
+     private float  Bonus;
+     
+
+     public test(float Bonus ) {    
+     
+         
+         this.Bonus = Bonus;
+     
+     
+     
+     }
+     
+     
+     public void setName (String empName) {
+     
+       this.empName = empName;
+     
+     }
+     
+     
+      public void setBSalary (float empBSalary) {
+     
+       this.empBSalary = empBSalary;
+     
+     }
+     
+     public String getName() {
+     
+      return this.empName;
+ 
+     }
+     
+ 
+  
+     public float getSalary () {
+     
+      return this.empBSalary;
+ 
+     }
+     
+     
+     public void display () {
+     
+     
+         System.out.println("Employee Name: "+this.empName);
+         System.out.println("Basic Salary: "+this.empBSalary);
+         System.out.println("Bonus:  "+this.Bonus);
+         System.out.println("Bonus Amount:"+(this.Bonus+this.empBSalary));
+     
+     
+     }
+  
+       
+}
